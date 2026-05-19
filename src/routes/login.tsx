@@ -66,9 +66,9 @@ function Login() {
           <GithubOutlined /> {t("Continuar con GitHub")}
         </button>
 
-        <div className={`border-b border-border w-full ${import.meta.env.DEV ? "" : "hidden"}`} />
+        <div className={`border-b border-border w-full ${import.meta.env.PROD ? "" : "hidden"}`} />
 
-        <form onSubmit={handleLogInWithEmail} className={`login-form ${import.meta.env.DEV ? "" : "hidden"}`}>
+        <form onSubmit={handleLogInWithEmail} className={`login-form ${import.meta.env.PROD ? "" : "hidden"}`}>
           <label>
             <div className="label">{t("Correo electrónico")}</div>
             <input
