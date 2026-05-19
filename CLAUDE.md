@@ -3,7 +3,7 @@
 ## UI
 
 Read the README.md.
-
+ 
 ## API
 
 Read the [OpenBSP API README](../open-bsp-api/README.md) for project context, architecture, deployment, and **local development workflow** (database schema changes, migrations, type generation).
